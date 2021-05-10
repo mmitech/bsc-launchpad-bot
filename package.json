@@ -1,0 +1,27 @@
+{
+  "name": "bsc-launchpad-bot",
+  "version": "1.0.0",
+  "description": "bot for bsc pncakeswap",
+  "homepage": "https://bitbucket.org/mmitech/bsc-launchpad-bot",
+  "url": "https://bitbucket.org/mmitech/bsc-launchpad-bot/issues",
+  "email": "dzsi2007@gmail.com",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@truffle/hdwallet-provider": "1.2.6",
+    "dotenv": "^8.2.0",
+    "openzeppelin-solidity": "^3.3.0",
+    "truffle": "^5.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "truffle test",
+    "compile": "truffle compile",
+    "migrate": "truffle migrate --network bscpublic",
+    "postinstall": "pip3 install -r requirements.txt"
+  },
+  "author": "Mourad Ilyes Mlik",
+  "license": "MIT"
+}
